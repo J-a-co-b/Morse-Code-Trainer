@@ -20,15 +20,6 @@ This project implements a real-time Morse code decoder using time-domain signal 
 
 ![Block Diagram](BlockDiagram.jpg)
 
-### Components
-
-| Component | Description |
-|-----------|-------------|
-| **ESP32-WROOM-32** | Dual-core microcontroller with WiFi + Bluetooth |
-| **TTP223** | Capacitive touch sensor (input) |
-| **LCD1602 + I2C** | 16×2 LCD display (text output) |
-| **RGB LED (5mm)** | Visual feedback — Green for dot, Blue for dash |
-
 ### How It Works
 
 1. **Touch Detection** — The ESP32 monitors the capacitive touch sensor and starts timing when a touch is detected.
